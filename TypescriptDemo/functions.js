@@ -4,6 +4,7 @@ let addTwoNumbers = (a, b) => {
     return a + b;
 };
 console.log(addTwoNumbers(2, 4));
+//rest parameter
 let restParameter = (c, d, ...rest) => {
     return (c + d) + rest.reduce((acc, num) => acc + num, 0);
 };
