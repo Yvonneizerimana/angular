@@ -46,3 +46,4 @@ department = "IT";
 department = 45;
 department = true;
 console.log(department);
+//# sourceMappingURL=dataTypes.js.map

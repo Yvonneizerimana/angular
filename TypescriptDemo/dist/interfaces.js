@@ -16,3 +16,4 @@ console.log(user3);
 console.log(restUsers);
 let someResult = restUsers.filter(user => user.name === "kaneza");
 console.log(someResult);
+//# sourceMappingURL=interfaces.js.map

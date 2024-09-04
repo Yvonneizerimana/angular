@@ -85,3 +85,4 @@ class displayStudentsMarks {
 }
 let oo = new displayStudentsMarks();
 console.log(oo.getMarks());
+//# sourceMappingURL=class.js.map
