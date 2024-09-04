@@ -1,5 +1,4 @@
 "use strict";
-//class
 var __classPrivateFieldSet = (this && this.__classPrivateFieldSet) || function (receiver, state, value, kind, f) {
     if (kind === "m") throw new TypeError("Private method is not writable");
     if (kind === "a" && !f) throw new TypeError("Private accessor was defined without a setter");
@@ -7,6 +6,8 @@ var __classPrivateFieldSet = (this && this.__classPrivateFieldSet) || function (
     return (kind === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value)), value;
 };
 var _Empdetai_id;
+Object.defineProperty(exports, "__esModule", { value: true });
+//class
 class Empdetails {
 }
 const obj1 = new Empdetails();
@@ -77,3 +78,10 @@ OB.id = 20;
 OB.size = 345;
 OB.color = "Green";
 console.log(OB.desk);
+class displayStudentsMarks {
+    getMarks() {
+        return { regno: "230h100", name: "Abineza ange gabriel", email: "ange@gmail.com", marks: 97 };
+    }
+}
+let oo = new displayStudentsMarks();
+console.log(oo.getMarks());

@@ -1,3 +1,5 @@
+import*as studentMarks from './interfaces'
+
 //class
 
 class Empdetails{
@@ -107,6 +109,15 @@ OB.size=345
 OB.color="Green"
 
 console.log(OB.desk)
+
+class displayStudentsMarks{
+     getMarks():studentMarks.marks{
+    return {regno:"230h100",name:"Abineza ange gabriel",email:"ange@gmail.com",marks:97}
+     }
+}
+
+let oo=new displayStudentsMarks();
+console.log(oo.getMarks())
 
 
 
